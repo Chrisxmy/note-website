@@ -1,0 +1,65 @@
+     .date-picker{
+            width: 240px;
+            border: 1px solid #ccc;
+            font-size: 14px;
+            font-family: serif, cursive, fantasy;
+            display: none;
+        }
+        .date-picker .header{
+            height: 30px;
+            text-align: center;
+            background: #55a532;
+            line-height: 30px;
+        }
+        .pre{
+            float: left;
+            display: block;
+            height: 0;
+            width: 0;
+            border-right: 8px solid #ccc;
+            border-bottom: 8px solid transparent;
+            border-top: 8px solid transparent;
+            margin-left: 6px;
+            margin-top: 6px;
+        }
+        .next{
+            float: right;
+            display: block;
+            height: 0;
+            width: 0;
+            border-left: 8px solid #ccc;
+            border-bottom: 8px solid transparent;
+            border-top: 8px solid transparent;
+            margin-right: 6px;
+            margin-top: 6px;
+        }
+        .panel{
+            width: 100%;
+            text-align: center;
+        }
+        .panel th{
+           line-height: 2;
+        }
+        .panel td{
+            line-height: 1;
+        }
+        .date-picker .pre-month,
+        .date-picker .next-month {
+            color: #eee;
+        }
+
+        .date-picker .cur-month {
+            cursor: pointer;
+        }
+
+        .date-picker .cur-month:hover {
+            background-color: #ccc;
+            color: #fff;
+        }
+
+        .date-picker .cur-date {
+            color: #CA2B2B;
+        }
+        .date-ipt{
+            position: relative;
+        }
